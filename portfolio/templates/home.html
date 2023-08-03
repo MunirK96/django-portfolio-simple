@@ -1,6 +1,31 @@
 {% extends 'layout.html' %}
 
 {% block content %}
+{% load static %}
+<header class="row bg-black">
+    <div class="col-md-4">
+        <img src="{% static 'portfolio/Munir J. Kahil.jpg'%}" alt=""/>
+
+    </div>
+    <div class="col-md-8">
+        <h1>I am <strong>Munir Kahil</strong></h1>
+        <h3>I am a Python backend Developer</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto odio magni ipsam officiis corrupti dolorum
+            voluptatem natus. Quis veritatis deleniti provident commodi, similique tempora culpa illo? Molestiae
+            voluptas
+            alias dolores sapiente ut dolore modi tempore quidem, consectetur in eius ratione fuga dolor vitae possimus
+            eum
+            assumenda ipsum quos distinctio neque laboriosam ea eveniet? Obcaecati sequi doloribus reprehenderit velit
+            ratione qui veritatis perferendis eligendi, at accusamus! Et, reiciendis a quos magni architecto nulla fugit
+            ea
+            id, obcaecati dolore quidem saepe quia tempora quae aliquid praesentium omnis veniam maiores. Ab optio
+            nesciunt
+            a, doloremque expedita quae sapiente dolores, asperiores architecto laboriosam fugiat?</p>
+        <a href="{% static 'portfolio/CV-MunirKahil.pdf'}" class="btn btn-primary btn-lg rounded-0 my-3">Download CV</a>
+    </div>
+
+</header>
+
 
 <h1>Home</h1>
 
@@ -12,7 +37,7 @@
 
 {% if Project.url %}
 
-    <a href="{{Project.url}}">{{Project.url}}</a>
+<a href="{{Project.url}}">{{Project.url}}</a>
 
 {% endif %}
 

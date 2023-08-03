@@ -1,0 +1,12 @@
+header img{
+    float: left;
+    width: 350px;
+    height: 350px;
+}
+body{
+    background: #090909;
+}
+
+.bg-black {
+    background: #000;
+}
