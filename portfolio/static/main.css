@@ -3,10 +3,15 @@ header img{
     width: 350px;
     height: 350px;
 }
-body{
+body {
     background: #090909;
 }
 
 .bg-black {
     background: #000;
+}
+
+.card-project:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
 }
