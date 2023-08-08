@@ -4,7 +4,8 @@
 {% load static %}
 <header class="row bg-black">
     <div class="col-md-4">
-        <img src="{% static 'portfolio/Munir J. Kahil.jpg'%}" alt=""/>
+        
+        <img src="{% static 'portfolio/Munir J. Kahil.jpg'%}"alt=""/>
 
     </div>
     <div class="col-md-8 my-auto">
@@ -42,7 +43,7 @@
     
         {% if Project.url %}
     
-        <a href="{{Project.url}}">{{Project.url}}</a>
+        <a href="{{Project.url}}" class="btn btn-light rounded-0 btn-sm" target="_blank">{{Project.url}}</a>
     
         {% endif %}
     

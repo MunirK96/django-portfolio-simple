@@ -1,7 +1,9 @@
 header img{
     float: left;
+    padding: 5px;
     width: 350px;
     height: 350px;
+    
 }
 body {
     background: #090909;
